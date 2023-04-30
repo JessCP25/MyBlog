@@ -1,0 +1,95 @@
+
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 140px 1fr;
+}
+:root{
+    --turquesa: #482973;
+    --black-purple: #2E1D40;
+    --black: #000;
+    --white: #e8e7e2;
+    --pink: #F2D0F2;
+}
+header{
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-rows: 50px 90px;
+}
+a{
+    text-decoration: none;
+    color: var(--black-purple);
+}
+.redes{
+    display: grid;
+    padding-right: 20px;
+    background-color: var(--turquesa);
+    justify-content: end;
+}
+.redes__icons{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.redes__icon{
+    color: var(--white);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 20px;
+    background-color: var(--white);
+}
+.nav__img{
+    width: 200px;
+}
+.nav-profile{
+    color: var(--black-purple);
+    border-bottom: 1px solid var(--black-purple);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+main{
+    /* --opacidad-negro:0.4; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),url(../assets/img/portada.png); */
+    background-image: url(../assets/img/portada.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__h1{
+    font-family: 'Roboto mono', monospace;
+    font-size: 4.0rem;
+    color: var(--black-purple);
+    text-shadow: 3px 3px 3px var(--pink);
+    font-weight: bolder;
+}
+.main__btn{
+    border: none;
+    background-color: var(--turquesa);
+    font-size: 1.6rem;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border-bottom: 2px solid #6136BF;
+}
+.main__btn-a{
+    color: var(--white);
+    font-weight: bold;
+}

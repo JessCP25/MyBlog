@@ -1,0 +1,11 @@
+@media (max-width: 900px){
+    .news--center{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        justify-items: center;
+    }
+    .news__content{
+        grid-column: 1;
+        grid-row: 3;
+    }
+}

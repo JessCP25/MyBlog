@@ -8,4 +8,39 @@
         grid-column: 1;
         grid-row: 3;
     }
+    .contact{
+        justify-content: space-around;
+    }
+}
+@media (max-width:648px){
+    .contact--left, .contact--right{
+        width: 80%;
+    }
+    .contact--left{
+        margin-bottom: 40px;
+    }
+    .proyect__container{
+        justify-content: center;
+    }
+    .proyect__card{
+        width: 80%;
+    }
+    .profile__content{
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+}
+@media (max-width:376px){
+    nav{
+        padding: 0 20px 0 0;
+        justify-content: space-around;
+    }
+    .contact--left, .contact--right{
+        flex-wrap: wrap;
+    }
+    .contact__img{
+        margin: 0 auto;
+        width: 100px;
+        margin-bottom: 10px;
+    }
 }
